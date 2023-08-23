@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "nombre": "Budín de limón",
+        "ingredientes": ["Manteca 120gr", "Azúcar 120gr", "Harina leudante 130gr", "Huevos 2 uds", "Jugo de 1 limón", "Ralladura de 1 limón", "Esencia de vainilla c/n"],
+        "pasos": ["Batir la manteca pomada con el azúcar.", "Agregar la esencia, el jugo y la ralladura.", "Incorporar los huevos y batir.", "Agregar la harina previamente tamizada y mezclar.", "Hornear a 180° por 25' o hasta que se dore."],
+        "imagen": "/assets/images/limon.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Muffin de banana",
+        "ingredientes": ["Harina leudante 100gr", "Leche 600ml", "Huevos 3 uds", "1 banana hecha puré", "Azúcar 50gr", "1 cda esencia de vainilla"],
+        "pasos": ["Precalentar el horno a 170°.", "Batir los huevos con el azúcar, agregar el puré, la esencia y la leche.", "Incorporar de a poco la harina tamizada removiendo suavemente.", "Colocar la preparación en los pocillos y llevar al horno 25' o hasta que al introducir un palillo, este salga limpio."],
+        "imagen": ""
+    },
+    {
+        "id": 3,
+        "nombre": "Galletas de naranja",
+        "ingredientes": ["Harina leudante 350gr", "Azúcar 80gr", "1 huevo", "Aceite 100ml", "Jugo y ralladura de una naranja", "Esencia de vainilla"],
+        "pasos": ["En un bowl colocamos el huevo, la ralladura y el jugo, el aceite, el azúcar y mezclamos (puede usarse la batidora).", "Agregamos la harina, e integramos hasta formar una masa (no se debe amasar demasiado, mejor si se utiliza una cuchara o espátula).", "Reposar la masa 15' en heladera.", "Realizamos bolitas y las aplastamos con la mano. Las colocamos en una fuente de horno enmantecada.", "Hornear a 160° por 20' o hasta que la base se dore."],
+        "imagen": ""
+    },
+    {
+        "id": 4,
+        "nombre": "Budín marmolado",
+        "ingredientes": ["Manteca 175gr", "Harina leudante 175gr", "Huevos 3 uds", "Azúcar 200gr", "Cacao en polvo 25gr"],
+        "pasos": ["Precalentar el horno a 180°.", "Derretir la manteca y mezclarla con el azúcar.", "Batir los huevos e incorporarlos a la preparación.", "Agregar la harina tamizada en forma de lluvia y mezclar bien.", "Dividir la mezcla en dos partes, en una agregar el cacao en polvo.", "En un molde colocar capas intercaladas de ambas preparaciones.", "Cocinar por 50{ o hasta que al colocar un cuchillo salga seco."],
+        "imagen": ""
+    },
+    {
+        "id": 5,
+        "nombre": "Muffin de arándanos",
+        "ingredientes": ["Harina leudante 210gr", "Azúcar 150gr", "Aceite 80ml", "Esencia de vainilla c/n", "Arándanos 100gr"],
+        "pasos": ["Precalentar el horno a 200°.", "Mezclar la harina con el azúcar.", "En otro bowl mexclar el aceite, la leche, la esencia y el huevo.", "Incorporar los líquidos a los secos y mezclar hasta integrar.", "Agragar los arándanos.", "Colocar la preparación en los pocillos y llevar al horno por 20'."],
+        "imagen": ""
+    }
+]
