@@ -70,6 +70,7 @@ const getData = async () => {
 
     const btnVerTodo = document.getElementById("btnVerTodo");
     btnVerTodo.addEventListener("click", () => {
+      results.innerHTML = "";
       pintarProducts(data);
     });
   } catch (error) {
