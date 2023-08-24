@@ -279,6 +279,7 @@ input {
 footer {
     display: flex;
     justify-content: center;
+    text-align: center;
     background-color: var(--fucsia);
     color: #ffffff;
     padding: 20px 0;
