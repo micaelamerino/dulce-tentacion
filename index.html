@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Recetas de alimentos dulces: budines, alfajores, muffins...">
-    <title>Recetas dulces</title>
-    <link rel="shortcut icon" href="/assets/images/icono.ico" type="image/x-icon">
-    <link rel="stylesheet" href="/css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tienda de alimentos dulces: budines, alfajores, muffins..."
+    />
+    <title>Dulce tentación</title>
+    <link
+      rel="shortcut icon"
+      href="/assets/images/icono.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
     <script defer src="/js/script.js"></script>
-</head>
-<body>
-
+    <script defer src="/js/cart.js"></script>
+  </head>
+  <body>
     <header>
-        <div class="logo">
-            <img src="/assets/images/logo.svg" alt="Logo de la página 'Recetas dulces'" loading="lazy"/>
-        </div>
+      <div class="logo">
+        <img
+          src="/assets/images/logo.svg"
+          alt="Logo de la página 'Recetas dulces'"
+          loading="lazy"
+        />
+      </div>
+      <div class="contenedor-filtro">
         <form id="form">
-            <input
+          <input
             id="input"
             type="text"
             placeholder="Muffin, budín, cookie..."
-            autocomplete="off"/>
-            <button type="submit" class="btn-buscar">Buscar</button>
+            autocomplete="off"
+          />
+          <button class="btn-form">Buscar</button>
         </form>
+        <div id="notFilter" class="not-filter"></div>
+      </div>
+      <div class="buttons-header">
+        <button id="btnVerTodo" class="btn-header">
+          Ver todos los productos
+        </button>
+        <button id="btnCart" class="btn-header">VER CARRITO</button>
+      </div>
     </header>
 
-    
-</body>
+    <main id="resultados"></main>
+
+    <section id="contentCart" class="content-cart"></section>
+
+    <footer>
+        <p>Dulce Tentación &copy; Todos los derechos reservados</p>
+    </footer>
+  </body>
 </html>
