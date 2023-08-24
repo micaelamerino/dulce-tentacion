@@ -57,7 +57,7 @@ const getData = async () => {
     function searchResults(e) {
       e.preventDefault();
       const inputValue = document.getElementById("input").value;
-      const search = data.filter((p) => p.nombre.includes(inputValue));
+      const search = data.filter((p) => p.nombre.toLowerCase().includes(inputValue.toLowerCase()));
       if (inputValue == "") {
         notFilter.innerHTML = `<p>*Debe ingresar un dato</p>`;
       } else if (search.length > 0) {

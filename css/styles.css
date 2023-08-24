@@ -15,6 +15,12 @@
     --rojo: #a11a1a;
 }
 
+body {
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 3em;
+}
+
 body,
 input,
 button {
@@ -133,9 +139,8 @@ input {
     object-fit: cover;
 }
 
-#resultados {
-    margin: 40px 0;
-    padding: 0 40px;
+.resultados {
+    padding: 50px 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -271,7 +276,10 @@ footer {
     justify-content: center;
     background-color: var(--fucsia);
     color: #ffffff;
-    padding: 25px 0;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 @media (min-width: 576px) {
