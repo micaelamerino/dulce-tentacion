@@ -2,7 +2,7 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 const getData = async () => {
   try {
-    const response = await fetch("data.jso");
+    const response = await fetch("data.json");
     const json = await response.json();
     const data = json;
     const results = document.getElementById("resultados");
