@@ -2,7 +2,7 @@ let cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 const getData = async () => {
   try {
-    const response = await fetch("data.json");
+    const response = await fetch("data.jso");
     const json = await response.json();
     const data = json;
     const results = document.getElementById("resultados");
@@ -75,7 +75,8 @@ const getData = async () => {
     });
   } catch (error) {
     if (error) {
-      console.log(error);
+      const error = document.getElementById("error")
+      error.innerHTML = `<p>No se encontró información, por favor vuelva a ingresar</p>`
     }
   }
 };

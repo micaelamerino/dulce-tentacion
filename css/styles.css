@@ -288,6 +288,12 @@ footer {
     width: 100%;
 }
 
+.error-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media (min-width: 576px) {
     header {
         padding: 25px 40px;
